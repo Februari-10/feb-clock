@@ -71,3 +71,24 @@ header p {
   z-index: 1000;
   pointer-events: none;
 }
+
+#citySearch {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  width: 250px;
+  background: #1c1c1c;
+  color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  outline: none;
+}
+
+#citySearch::placeholder {
+  color: #bbb;
+}
+
+#citySearch:focus {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.7);
+}
